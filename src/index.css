@@ -1,0 +1,58 @@
+.main-wrap {
+  border: 1px solid rgb(209, 182, 74);
+}
+
+.inner-wrap {
+  margin: 0 auto auto 1rem;
+}
+
+.recent-scores-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.recent-scores-outer {
+  display: flex;
+  align-items: center;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  border: 1px solid rgb(69, 217, 207);
+}
+
+.name {
+  margin-bottom: 1rem;
+}
+
+.score {
+  margin-bottom: 1rem;
+}
+
+.refresh {
+  margin-left: 3rem;
+  padding: 0 1rem;
+}
+
+.form-btn {
+  margin-left: 3rem;
+  padding: 0 1rem;
+}
+
+.list-of-scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  border: 2px solid black;
+}
+
+.list-of-scores div:nth-child(even) {
+  background-color: rgb(182, 166, 166);
+}
+
+.list-of-scores div:nth-child(odd) {
+  color: rgb(105, 99, 99);
+}
